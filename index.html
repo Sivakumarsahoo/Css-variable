@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>css variable</title>
+</head>
+<body>
+    <h1>Update CSS Variables with<span>JS</span></h1>
+    <div class="controls">
+        <label for="spacing">Spacing:</label>
+        <input type="range" name="spacing" min="10" max="200" value="0" data-sizing="px" >     
+        <!-- in data sizing data is present in system but after hypen we use random variable to use our own objects -->
+        <label for="blur"> Blur:</label>
+        <input type="range" name="blur" min="0"max="25" value="0" data-sizing="px">
+        <label for="base">Base color:</label>
+        <input type="color" name="base" value="#42C2FF">
+    </div>
+    <img src="img1.jpg" alt="image" style="width: 500px; height: 400px;">
+</body>
+</html>
